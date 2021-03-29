@@ -1,0 +1,101 @@
+
+        body{
+            margin: 0;    
+            font-family: 'Gugi', cursive;      
+        }       
+        li{
+            display: inline-block; 
+            padding: 20px;
+            
+        }
+        .navbar {
+            display: flex;
+            justify-content:space-between;
+            background-color:rgb(18, 30, 85);
+            align-items: center ;
+            position:fixed;
+            width: 100%;
+            opacity: 95%; 
+            z-index: 99999;         
+        }
+        .navbar_logo{
+            
+            padding-left: 20px;        
+        }
+
+        .navbar_menu a {color: white;}
+
+        a{
+            text-decoration: none;
+        }
+
+        .navbar_menu{
+            color:white;   
+            list-style-type: none;
+            margin: 0;                      
+        }
+        ul{
+            margin-top: 0px;
+            margin-bottom: 0px;
+             
+                 
+        }
+        .navbar_link{
+            padding-right: 20px;
+            
+        }
+       
+        h2{
+            margin:0;
+            padding-top: 80px;
+            font-size: 100px;
+        }
+        h3{
+            margin:0;
+            font-size: 20px;
+            font-family: none;
+        }
+        .inform{
+            padding:0;
+            font-family:none;
+            font-size: 20px;
+            color:rgb(46, 46, 253);           
+        }
+        .articles1{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family: none;
+            border-top: 0;
+            border-bottom:1px;
+            border-left: 0;
+            border-right: 0;
+            border-style: solid;
+            font-size: 11px;
+            color:gray;
+            background-color: rgb(238, 238, 238);
+            
+        }
+        @media screen and (max-width: 728px){
+            .navbar{
+                display: block;
+            }
+            .navbar_link{
+                align:center;
+                padding: 20px;
+            }
+            .navbar_logo{
+                padding-top: 10px;
+             
+            }
+            .logo1{
+                align-items:center;
+                padding-top:10px;
+            }
+            .navbar_menu{
+                display:flex;
+                align-items:center;
+            }
+        }
+        

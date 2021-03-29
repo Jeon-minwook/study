@@ -1,0 +1,39 @@
+h1{
+    color: yellow;
+}
+h2{
+    color: yellowgreen;
+}
+body{
+    color:rgb(255, 0, 0);
+    text-align:center;
+    background:black;
+    margin:0;
+}
+p{
+    font-size: 40px;
+    background:white; 
+    color:black;   
+    text-align:left;       
+}
+
+#i{
+    font-size: 40px;
+    background:green;   
+    color:rgb(255, 0, 0);
+}
+
+.c{
+    font-size: 40px;
+    background:blue; 
+    color:white;  
+}
+.box{
+    color:white;
+    background-color: bisque;
+    border: 10px solid purple;
+    border-radius: 5px;
+    font-size: 50px;
+    padding: 40px 20px 20px 40px;
+}
+/*-----우선순위에 대하여 id>class>none-----*/
